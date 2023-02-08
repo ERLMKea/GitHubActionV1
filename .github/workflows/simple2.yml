@@ -10,5 +10,10 @@ jobs:
         run: echo "Hello world"
       - name: multiline script
         run: |
-          node -vvv
+          node -v
           npm -v
+      - name: python Command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
