@@ -1,4 +1,4 @@
-name: Shell Commands
+name: Shell Commands2
 
 on: [push]
 
@@ -10,5 +10,5 @@ jobs:
         run: echo "Hello world"
       - name: multiline script
         run: |
-          node -v
+          node -vvv
           npm -v
